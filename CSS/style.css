@@ -1,0 +1,44 @@
+.cube::before{
+    content: ":before";
+    width: 300px;
+    height: 50px;
+    background: rgb(145, 255, 0);
+    color: white;
+    float: left;
+    display: flex;
+    top: -50px;
+    left: 0px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+
+.cube{
+    width: 300px;
+    height: 50px;
+    background: rgb(142, 223, 241);
+    color: black;
+    float: left;
+    display: flex;
+    top: 50px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.cube::after{
+    content: ":after";
+    width: 300px;
+    height: 50px;
+    background: rgb(255, 0, 34);
+    color: white;
+    float: left;
+    display: flex;
+    top: 50px;
+    left: 0px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
